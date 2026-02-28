@@ -1,1 +1,93 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undergraduate Portfolio</title>
+    <!-- Simple internal CSS for styling; feel free to move to external stylesheet -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #4a90e2;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        #profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 10px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        a.resume-link {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 15px;
+            background: #4a90e2;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        a.resume-link:hover {
+            background: #357ab8;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with name, degree program, and profile picture -->
+    <!-- Replace "Jane Doe" and degree program with your own information -->
+    <header>
+        <h1>Jane Doe</h1>
+        <p>Bachelor of Science in Cybersecurity</p>
+        <img id="profile-pic" src="assets/picture.jpg" alt="Profile picture">
+    </header>
+
+    <main>
+        <!-- Professional summary section -->
+        <section id="summary">
+            <h2>Professional Summary</h2>
+            <p>
+                Motivated undergraduate cybersecurity student with a strong foundation in network security,
+                ethical hacking, and risk assessment. Passionate about protecting systems and data, and eager to
+                apply academic knowledge through hands-on projects and internships. Seeking opportunities to deepen
+                practical skills and contribute to effective security solutions.
+            </p>
+            <!-- Link to resume -->
+            <a class="resume-link" href="assets/Resume.docx" download>Download My Resume</a>
+        </section>
+
+        <!-- Placeholder for projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Details about projects will be added here. Examples could include web apps, research work, or coursework.</p>
+        </section>
+
+        <!-- Placeholder for skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>List technical skills, tools, and technologies here. For example: HTML, CSS, JavaScript, Python, etc.</p>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Update the copyright year and name as needed -->
+        <p style="text-align:center; font-size:0.9em; color:#777;">&copy; 2026 Jane Doe</p>
+    </footer>
+</body>
+</html>
